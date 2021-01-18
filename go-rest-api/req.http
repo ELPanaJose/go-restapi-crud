@@ -1,0 +1,11 @@
+GET http://localhost:3000/tasks
+###
+
+POST http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+ "Name" : "Task two",
+ "Content" : "algun contenido"
+
+}
